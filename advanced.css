@@ -1,0 +1,123 @@
+/* Google Advanced Search styles for advanced.css */
+body {
+    background: #fff;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+.adv-container {
+    max-width: 800px;
+    margin: 60px auto;
+    padding: 40px 32px 32px 32px;
+    border: 1px solid #dadce0;
+    border-radius: 8px;
+    background: #fff;
+    box-shadow: 0 2px 8px rgba(60,64,67,0.08);
+}
+.adv-title {
+    color: #d93025;
+    font-size: 1.7rem;
+    font-weight: 400;
+    margin-bottom: 30px;
+}
+.adv-label {
+    font-size: 1rem;
+    color: #222;
+    margin-bottom: 6px;
+    display: block;
+}
+.adv-row {
+    display: flex;
+    align-items: center;
+    margin-bottom: 18px;
+}
+.adv-row input[type="text"] {
+    flex: 1;
+    padding: 10px 12px;
+    border: 1px solid #dfe1e5;
+    border-radius: 4px;
+    font-size: 1rem;
+    margin-left: 16px;
+}
+.adv-row label {
+    min-width: 220px;
+}
+.adv-btn {
+    background: #4d90fe;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    padding: 10px 24px;
+    font-size: 1rem;
+    cursor: pointer;
+    margin-top: 20px;
+    float: right;
+}
+.adv-btn:hover {
+    background: #357ae8;
+}
+.h3-header {
+    position: absolute;
+    top: 30px;
+    right: 50px;
+    display: flex;
+    flex-direction: row;
+    gap: 16px;
+}
+
+h3 {
+    color: #5f6368;
+    font-weight: 400;
+    margin: 0;
+    display: inline-block;
+    font-size: 1.1rem;
+}
+.logo-top-left {
+    position: absolute;
+    top: 30px;
+    left: 50px;
+    font-size: 2.5rem;
+    font-family: 'Product Sans', Arial, sans-serif;
+    font-weight: 700;
+    margin: 0;
+    letter-spacing: -2px;
+    z-index: 10;
+}
+.adv-section-label {
+    font-size: 1.1rem;
+    color: #333;
+    font-weight: 500;
+    margin-bottom: 18px;
+    margin-top: 10px;
+}
+.adv-flex {
+    display: flex;
+    flex-direction: row;
+    gap: 40px;
+    align-items: flex-start;
+    justify-content: flex-start;
+}
+.adv-main-form {
+    flex: 2;
+    min-width: 340px;
+}
+.adv-guide {
+    flex: 1;
+    min-width: 240px;
+    max-width: 320px;
+    margin-left: 0;
+    margin-top: 40px;
+}
+.adv-guide-title {
+    font-weight: 600;
+    color: #222;
+    font-size: 1.05rem;
+}
+.adv-guide ul {
+    margin: 8px 0 0 18px;
+    padding: 0;
+}
+.adv-guide li {
+    margin-bottom: 6px;
+    line-height: 1.4;
+}

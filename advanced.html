@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Advanced Search</title>
+    <link rel="stylesheet" href="advanced.css">
+</head>
+<body>
+        <h1 class="logo-top-left">
+            <span style="color:#4285F4">G</span><span style="color:#EA4335">o</span><span style="color:#FBBC05">o</span><span style="color:#4285F4">g</span><span style="color:#34A853">l</span><span style="color:#EA4335">e</span>
+        </h1>
+        <div class="h3-header">
+            <a href="index.html"><h3>Search</h3></a>
+            <a href="image.html"><h3>Image</h3></a>
+        </div>
+        <div class="adv-container adv-flex">
+            <div class="adv-main-form">
+                <div class="adv-title">Advanced Search</div>
+                <div class="adv-section-label">Find pages with...</div>
+                <form action="https://www.google.com/search" method="GET">
+                    <div class="adv-row">
+                        <label class="adv-label" for="as_q">all these words:</label>
+                        <input type="text" id="as_q" name="as_q">
+                    </div>
+                    <div class="adv-row">
+                        <label class="adv-label" for="as_epq">this exact word or phrase:</label>
+                        <input type="text" id="as_epq" name="as_epq">
+                    </div>
+                    <div class="adv-row">
+                        <label class="adv-label" for="as_oq">any of these words:</label>
+                        <input type="text" id="as_oq" name="as_oq">
+                    </div>
+                    <div class="adv-row">
+                        <label class="adv-label" for="as_eq">none of these words:</label>
+                        <input type="text" id="as_eq" name="as_eq">
+                    </div>
+                    <button class="adv-btn" type="submit">Advanced Search</button>
+                </form>
+            </div>
+            <div class="adv-guide">
+                <span class="adv-guide-title">Helpful tips:</span><br>
+                <ul>
+                    <li><b>all these words</b>: Results must include all words you enter.</li>
+                    <li><b>this exact word or phrase</b>: Results must include this exact phrase.</li>
+                    <li><b>any of these words</b>: Results can include any of the words.</li>
+                    <li><b>none of these words</b>: Results will exclude these words.</li>
+                </ul>
+            </div>
+        </div>
+</body>
+</html>
